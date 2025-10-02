@@ -196,6 +196,10 @@ public class Settings {
         @Config.RequiresMcRestart
         public boolean patchTechGunsExplosion = false;
 
+        @Config.Comment("(Server) Fix TechGuns NullPointerException when player disconnect.")
+        @Config.RequiresMcRestart
+        public boolean fixTechGunsPlayerDisconnectNPE = true;
+
         @Config.Comment("(Server) Patch modifiers of InfernalMobs can bypass grief protection.")
         @Config.RequiresMcRestart
         public boolean patchInfernalMobsModifier = false;

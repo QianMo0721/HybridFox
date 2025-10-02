@@ -36,6 +36,7 @@ Provide a bunch of bugfixes, optimizations and utilities for Forge+Bukkit server
 - Fix TechReborn(RebornCore) explosions can break blocks in protected areas
 - Offer events to Applied Energistics 2 Spatial Pylon to prevent some unpermitted griefing
 - Fix TechGuns explosion can break blocks in protected areas
+- Fix TechGuns NullPointerException when player disconnect
 - Add entity blacklist/whitelist to Applied Energistics 2 Spatial Pylon
 - Fix webs of InfernalMobs can spawn in protected areas
 - Fix EpicSiegeMod mob AIs can grief in protected areas
